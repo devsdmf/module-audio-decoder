@@ -2,4 +2,5 @@
 cd lib/libmikmod-3.3.7/
 ./configure
 make
+cd ../../
 gcc -o streammer streammer.c `lib/libmikmod-3.3.7/libmikmod-config --cflags` `lib/libmikmod-3.3.7/libmikmod-config --libs`
