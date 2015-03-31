@@ -1,4 +1,4 @@
-# MODULE FILE PLAYER
+# AMIGA MODULE AUDIO DECODER
 
 This is a test project for MikMod library to play module audio files (aka Amiga).
 
