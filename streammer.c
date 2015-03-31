@@ -4,15 +4,15 @@
 
 int main() 
 {
-	MODULE *module;
+    MODULE *module;
 
     MikMod_InitThreads();
-	
-	MikMod_RegisterAllDrivers();
-	MikMod_RegisterAllLoaders();
+    
+    MikMod_RegisterAllDrivers();
+    MikMod_RegisterAllLoaders();
 
-	md_mode |= DMODE_SOFT_MUSIC | DMODE_NOISEREDUCTION | DMODE_INTERP;
-	if (MikMod_Init("")) {
+    md_mode |= DMODE_SOFT_MUSIC | DMODE_NOISEREDUCTION | DMODE_INTERP;
+    if (MikMod_Init("")) {
         fprintf(stderr, "Could not initialize sound, reason: %s\n",MikMod_strerror(MikMod_errno));
         return 1;
     }
