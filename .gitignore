@@ -1,0 +1,12 @@
+.buildpath
+.project
+.settings/*
+.idea/*
+*.xm
+*.mod
+*.it
+*.out
+*.so
+*.o
+*.lib
+streammer
