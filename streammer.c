@@ -17,7 +17,7 @@ int main()
         return 1;
     }
 
-    module = Player_Load("res/audio-embrace-1.xm", 128, 1);
+    module = Player_Load("audio-embrace-1.xm", 128, 1);
     if (module) {
         module->wrap = 1;
         module->loop = 0;
