@@ -19,7 +19,9 @@ libmikmod.la
 libmikmod.pc
 *libmikmod-config.1
 */*/libtool
-Makefile
+*/*/*Makefile*
+*/*/*/Makefile
+*/*/*/*/Makefile
 config.h
 config.log
 config.status
