@@ -6,6 +6,7 @@ This is a test project for MikMod library to play module audio files (aka Amiga)
 
 ```
 $ ./configure
+$ make
 $ ./streammer
 ```
 
